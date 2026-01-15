@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-align: center;
+    /* Gradiente que empieza en tu azul original y se aclara hacia la esquina inferior derecha */
+    background: linear-gradient(135deg, #1A2238 0%, #252F48 50%, #2D3A58 100%);
+    background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
+    min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    margin: 0;
+    color: #94A3B8;
+}
+
+h1 {
+    color: #FF6A3D;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block; /* Para que el borde no ocupe todo el ancho de la pantalla */
+    margin-top: 50px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A2238;
+    background-color: #FF6A3D;
+    padding: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 60px;
+    transition: transform 0.2s; /* Efecto suave al pasar el mouse */
+}
+
+/* Un pequeño efecto para que los botones se sientan vivos */
+a:hover {
+    transform: scale(1.02);
+    background-color: #ff7d54;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 40px auto;
+}
