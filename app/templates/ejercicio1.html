@@ -8,6 +8,37 @@
     <title>Ejercicio 1</title>
 </head>
 <body>
+<header><h1>Ejercicio n1</h1></header>
+
+<form method="POST">
+    <h2>Formulario de Notas</h2>
+    <label for="nota1">Nota 1:</label>
+    <input type="number" name="nota1" min="10" max="70" placeholder="Nota n1" required>
+
+    <label for="nota2">Nota 2:</label>
+    <input type="number" name="nota2" min="10" max="70" placeholder="Nota n2" required>
+
+    <label for="nota3">Nota 3:</label>
+    <input type="number" name="nota3" min="10" max="70" placeholder="Nota n3" required>
+
+    <label for="asistencia">Asistencia ( % )</label>
+    <input type ="number" name="asistencia" min="0" max="100" placeholder="Asitencia" required>
+
+    <input type="submit" value="Enviar">
+
+    <div>
+    {% if p is not none %}
+        <h3>Promedio: {{ p }}</h3>
+
+        {% if p >= 40 %}
+            <h3>Aprobado!</h3>
+        {% else %}
+            <h3>Reprobado :(</h3>
+        {% endif %}
+    {% endif %}
+    </div>
+</form>
+
 
 </body>
 </html>

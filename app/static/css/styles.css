@@ -2,10 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
     display: block;
     text-align: center;
-    /* Gradiente que empieza en tu azul original y se aclara hacia la esquina inferior derecha */
     background: linear-gradient(135deg, #1A2238 0%, #252F48 50%, #2D3A58 100%);
-    background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
-    min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    background-attachment: fixed;
+    min-height: 100vh;
     margin: 0;
     color: #94A3B8;
 }
@@ -15,7 +14,7 @@ h1 {
     border: 3px solid white;
     border-radius: 10px;
     padding: 10px;
-    display: inline-block; /* Para que el borde no ocupe todo el ancho de la pantalla */
+    display: inline-block;
     margin-top: 50px;
 }
 
@@ -33,13 +32,7 @@ a {
     font-size: 25px;
     font-weight: bold;
     height: 60px;
-    transition: transform 0.2s; /* Efecto suave al pasar el mouse */
-}
-
-/* Un pequeño efecto para que los botones se sientan vivos */
-a:hover {
-    transform: scale(1.02);
-    background-color: #ff7d54;
+    transition: transform 0.2s;
 }
 
 nav {
