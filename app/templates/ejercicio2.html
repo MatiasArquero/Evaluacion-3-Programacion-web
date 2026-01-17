@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+<header><h1>Ejercicio 2</h1></header>
+
+<form method="POST">
+    <label>
+        Nombre 1:
+        <input type="text" name="nombre1" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
+    </label>
+
+    <label>
+        Nombre 2:
+        <input type="text" name="nombre2" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
+    </label>
+
+    <label>
+        Nombre 3:
+        <input type="text" name="nombre3" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
+    </label>
+    <input type="submit" value="Enviar">
+
+<!--
+loop.index es un contador
+empates|length - 1 calculo la penultima posicion y agrego " Y "
+sino es loop.last (ultimo valor) ni el penultimo ⬆️ agrego una ,
+
+-->
+    {% if empates %}
+        <div>
+            {% if empates|length > 1 %}
+                <p>Empate entre:
+                    {% for nombre in empates %}
+                        {{ nombre }}
+                        {% if loop.index == empates|length -1 %}
+                            y
+                        {% elif not loop.last %}
+                            ,
+                        {% endif %}
+                    {% endfor %}
+                </p>
+
+                <p>Estos {{ empates|length }} nombres tienen: {{ largo_max }} caracteres</p>
+            {% else %}
+                <h3>El nombre con más cantidad de caracteres es: {{ nombre_max }} </h3>
+                <p>El nombre tiene: {{ largo_max }} caracteres</p>
+            {% endif %}
+        </div>
+    {% endif %}
+</form>
+</body>
+</html>

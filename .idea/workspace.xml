@@ -7,8 +7,7 @@
     <list default="true" id="68b33330-e8cf-439e-87a6-63bdf2a45c32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ejercicio1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/ejercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ejercicio2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,8 @@
       <updated>1768492355888</updated>
       <workItem from="1768492356940" duration="1538000" />
       <workItem from="1768509788136" duration="4475000" />
-      <workItem from="1768605978939" duration="3818000" />
+      <workItem from="1768605978939" duration="4070000" />
+      <workItem from="1768680145619" duration="6297000" />
     </task>
     <servers />
   </component>
@@ -132,6 +132,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlaskProject$FlaskProject.coverage" NAME="FlaskProject Coverage Results" MODIFIED="1768609786780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlaskProject$FlaskProject.coverage" NAME="FlaskProject Coverage Results" MODIFIED="1768685620042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
