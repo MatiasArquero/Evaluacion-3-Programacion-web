@@ -16,3 +16,6 @@ Arquitectura Modular: Estructura de archivos organizada donde cada página manti
 Backend: Python / Flask
 
 Frontend: HTML5 & CSS3 (Flexbox & High-Contrast Design)
+
+<img width="527" height="765" alt="image" src="https://github.com/user-attachments/assets/791415b0-ccbf-4b57-add0-cb004d136274" />
+
