@@ -1,2 +1,18 @@
 # Evaluacion-3-Programacion-web
-Un proyecto modular hecho con Python y Flask para poner en práctica lógica del Backend. La web posee un menú principal y dos ejercicios simples, donde se aplica logica y validaciones. Apostando por la simpleza del proyecto este cuenta con una estetica basada en el papel y la tinta, priorizando el estilo, funcionalidad y legibilidad.  
+📝 Web App Modular: Lógica y Minimalismo
+Un proyecto modular desarrollado con Python y Flask diseñado para poner en práctica conceptos fundamentales de lógica de backend.
+
+✨ Estética y Diseño
+El proyecto apuesta por la simpleza absoluta con una estética de "Papel y Tinta". Priorizando la legibilidad y el estilo, la interfaz utiliza un contraste puro en blanco y negro, bordes definidos de 15px y sombras sólidas que evocan un diseño manual y minimalista.
+
+🛠️ Funcionalidades
+Menú Principal: Punto central de acceso a los diferentes módulos.
+
+Módulos de Ejercicios: Dos herramientas interactivas donde se aplica lógica de procesamiento de datos y validaciones robustas.
+
+Arquitectura Modular: Estructura de archivos organizada donde cada página mantiene su propia lógica y estilos independientes.
+
+🚀 Tecnologías
+Backend: Python / Flask
+
+Frontend: HTML5 & CSS3 (Flexbox & High-Contrast Design)
