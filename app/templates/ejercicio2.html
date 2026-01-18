@@ -5,26 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/static/css/ejercicio2.css">
     <title>Ejercicio 2</title>
 </head>
 <body>
-<header><h1>Ejercicio 2</h1></header>
+<header><h1>Ejercicio número 2</h1></header>
+
+<h2>Comparador longitud de nombres</h2>
+
 
 <form method="POST">
-    <label>
-        Nombre 1:
-        <input type="text" name="nombre1" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
-    </label>
+    <label for="nombre1">Nombre 1: </label>
+    <input type="text" name="nombre1" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
 
-    <label>
-        Nombre 2:
-        <input type="text" name="nombre2" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
-    </label>
+    <label for="nombre2">Nombre 2: </label>
+    <input type="text" name="nombre2" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
 
-    <label>
-        Nombre 3:
-        <input type="text" name="nombre3" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
-    </label>
+    <label for="nombre3">Nombre 3: </label>
+    <input type="text" name="nombre3" pattern="[A-Za-z]+" title="Solo se permiten letras" required>
     <input type="submit" value="Enviar">
 
 <!--
@@ -33,10 +32,10 @@ empates|length - 1 calculo la penultima posicion y agrego " Y "
 sino es loop.last (ultimo valor) ni el penultimo ⬆️ agrego una ,
 
 -->
+<div>
     {% if empates %}
-        <div>
             {% if empates|length > 1 %}
-                <p>Empate entre:
+                <h4>Empate entre:
                     {% for nombre in empates %}
                         {{ nombre }}
                         {% if loop.index == empates|length -1 %}
@@ -45,15 +44,15 @@ sino es loop.last (ultimo valor) ni el penultimo ⬆️ agrego una ,
                             ,
                         {% endif %}
                     {% endfor %}
-                </p>
+                </h4>
 
-                <p>Estos {{ empates|length }} nombres tienen: {{ largo_max }} caracteres</p>
+                <h4>Estos {{ empates|length }} nombres tienen: {{ largo_max }} caracteres</h4>
             {% else %}
-                <h3>El nombre con más cantidad de caracteres es: {{ nombre_max }} </h3>
-                <p>El nombre tiene: {{ largo_max }} caracteres</p>
+                <h4>El nombre con más cantidad de caracteres es: <br>{{ nombre_max }} </h4>
+                <h4>El nombre tiene: {{ largo_max }} caracteres</h4>
             {% endif %}
-        </div>
     {% endif %}
+ </div>
 </form>
 </body>
 </html>
