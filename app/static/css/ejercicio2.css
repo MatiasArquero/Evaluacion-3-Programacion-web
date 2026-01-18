@@ -45,19 +45,35 @@ input{
     box-sizing: border-box;
 }
 
-h4{
+h3{
     margin: 10px;
     text-align: center;
+    font-size: 15px;
 }
 
 div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     width: 85%;
     padding: 2px 20px;
     margin: 10px auto;
     border: 1px dashed black;
     border-radius: 15px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
 
-
+    padding: 5px;
+    margin: auto 30px;
 }

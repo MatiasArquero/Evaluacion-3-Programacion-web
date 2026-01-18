@@ -17,12 +17,25 @@ header{
 h2{
     text-align: center;
 }
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    padding: 5px;
+    margin: auto 30px;
+}
+
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px 30px;
-    padding: 15px 15px;
+    padding: 0px 15px;
 
     border: 1px solid black;
     border-radius: 15px;

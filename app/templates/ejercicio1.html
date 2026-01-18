@@ -11,9 +11,7 @@
 </head>
 <body>
 <header><h1>Ejercicio número 1</h1></header>
-
 <h2>Formulario de Notas</h2>
-
 <form method="POST">
     <label for="nota1">Nota 1:</label>
     <input type="number" name="nota1" min="10" max="70" required>
@@ -33,14 +31,17 @@
     {% if p is not none %}
         <h4>Promedio: {{ p }}</h4>
 
-        {% if p >= 40 %}
+        {% if p >= 40 and a >= 70 %}
             <h4>Aprobado!</h4>
+        {% elif a < 70 %}
+            <h4>Reprobado por inasistencia</h4>
         {% else %}
-            <h4>Reprobado :(</h4>
+            <h4>Reprobado por notas</h4>
         {% endif %}
     {% endif %}
     </div>
 </form>
+<a href="/">Volver al menú principal</a>
 
 
 </body>
