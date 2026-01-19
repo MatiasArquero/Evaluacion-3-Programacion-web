@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="68b33330-e8cf-439e-87a6-63bdf2a45c32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ejercicio1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/ejercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ejercicio2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/matia/PycharmProjects/FlaskProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -124,7 +126,8 @@
       <workItem from="1768605978939" duration="4070000" />
       <workItem from="1768680145619" duration="6681000" />
       <workItem from="1768713697333" duration="9271000" />
-      <workItem from="1768744556304" duration="5211000" />
+      <workItem from="1768744556304" duration="5519000" />
+      <workItem from="1768864401867" duration="451000" />
     </task>
     <servers />
   </component>

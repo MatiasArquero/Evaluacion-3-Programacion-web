@@ -31,9 +31,9 @@
     {% if p is not none %}
         <h4>Promedio: {{ p }}</h4>
 
-        {% if p >= 40 and a >= 70 %}
+        {% if p >= 40 and a >= 75 %}
             <h4>Aprobado!</h4>
-        {% elif a < 70 %}
+        {% elif a < 75 %}
             <h4>Reprobado por inasistencia</h4>
         {% else %}
             <h4>Reprobado por notas</h4>
